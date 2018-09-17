@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MeterApp</string>
+    <string-array name="towns">
+        <item>Item 1</item>
+        <item>Item 2</item>
+    </string-array>
+    <string name="title_activity_data_list">DataList</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\MeterApp\app\src\main\assets"><file name="MeterDB.db" path="E:\MeterApp\app\src\main\assets\MeterDB.db"/></source><source path="E:\MeterApp\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\MeterApp\app\src\debug\assets"/></dataSet></merger>

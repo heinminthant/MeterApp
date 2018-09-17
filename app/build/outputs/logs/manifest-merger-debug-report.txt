@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\ba778a3a6731636b450acf90cb8944b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e955598cc7108f57b7029dc6705a7123\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0-rc01.aar\fa41a4830ef2ddf85566eab234829385\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\e639761a814e7a7e469f3dd93c0f01dc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\7dfa49c7b9c0f1c77a814456079e22fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\1890092746085c1b0617e6e85d26ced8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\c7954068f568818be0d020053d54031e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\3f9c0c02004ffdec6aef432f3b7d0e37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\6d94c3a631e260b6191ed79406e19020\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\a0d65b0765a0a149b5770f42212ccb0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\073e53e469c73155c3f1ffd00672fa6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\1585a8f43c5eb58935a5209b123d3325\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\0df9b3a0656d1d51ba3e9c74a71101a7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\cfccd858568950852975349b8d247f3c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\4eec97ada7bafbbff4017bd010d6d0de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\3ac6ebcd6690fddcdee9fc4dc6c61344\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f33510c1fcded74b97ba3e3b06354ee2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\6ef5c692f4634cd211b7bda25b9548bf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\02771b155c252b7b51b209be9c79ed81\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4131f383d38cd3d6a5de6c783f9f1b3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\860fca96337be2565343d098dc842f8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\f4204c8b73acc74121a0572822b99c3c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\7d3cc4ce2742ab93aab97e26cdf9081e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\32deb8b7c1b25a6a1713c86cd1666115\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\e1176d751827c63405ef8c51dd06cbbe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4462d8e53f712ff3e6c029001494257a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7c000d08c8e95ab7a8efcbbec0b07ad2\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:6:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.INTERNET
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:12:22-76
+application
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:14:5-49:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e955598cc7108f57b7029dc6705a7123\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e955598cc7108f57b7029dc6705a7123\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\e639761a814e7a7e469f3dd93c0f01dc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\e639761a814e7a7e469f3dd93c0f01dc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\6ef5c692f4634cd211b7bda25b9548bf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\6ef5c692f4634cd211b7bda25b9548bf\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.example.hein.meterapp.MainActivity
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:21:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.example.hein.meterapp.MainMenu
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:28:9-30:39
+	android:exported
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:29:13-37
+activity#com.example.hein.meterapp.UploadData
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:32:13-39
+activity#com.example.hein.meterapp.CheckSummary
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:34:9-50
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:34:19-47
+activity#com.example.hein.meterapp.DownloadData
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:35:9-50
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:35:19-47
+activity#com.example.hein.meterapp.EditData_Search
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:36:9-53
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:36:19-50
+activity#com.example.hein.meterapp.EditData_Details
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:37:9-54
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:37:19-51
+activity#com.example.hein.meterapp.ReadMeter_Options
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:38:9-55
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:38:19-52
+activity#com.example.hein.meterapp.ReadMeter_MeterNo
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:39:9-55
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:39:19-52
+activity#com.example.hein.meterapp.ReadMeter_CurrentUnit
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:40:9-59
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:40:19-56
+activity#com.example.hein.meterapp.DataList
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:41:9-47:20
+	android:label
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:43:13-61
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:42:13-37
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:44:13-46:29
+activity#com.example.hein.meterapp.SyncTest
+ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:48:9-55
+	android:name
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:48:19-43
+uses-sdk
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\ba778a3a6731636b450acf90cb8944b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\ba778a3a6731636b450acf90cb8944b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e955598cc7108f57b7029dc6705a7123\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\e955598cc7108f57b7029dc6705a7123\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0-rc01.aar\fa41a4830ef2ddf85566eab234829385\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-28.0.0-rc01.aar\fa41a4830ef2ddf85566eab234829385\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\e639761a814e7a7e469f3dd93c0f01dc\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\e639761a814e7a7e469f3dd93c0f01dc\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\7dfa49c7b9c0f1c77a814456079e22fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\7dfa49c7b9c0f1c77a814456079e22fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\1890092746085c1b0617e6e85d26ced8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\1890092746085c1b0617e6e85d26ced8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\c7954068f568818be0d020053d54031e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\c7954068f568818be0d020053d54031e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\3f9c0c02004ffdec6aef432f3b7d0e37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\3f9c0c02004ffdec6aef432f3b7d0e37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\6d94c3a631e260b6191ed79406e19020\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\6d94c3a631e260b6191ed79406e19020\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\a0d65b0765a0a149b5770f42212ccb0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\a0d65b0765a0a149b5770f42212ccb0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\073e53e469c73155c3f1ffd00672fa6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\073e53e469c73155c3f1ffd00672fa6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\1585a8f43c5eb58935a5209b123d3325\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\1585a8f43c5eb58935a5209b123d3325\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\0df9b3a0656d1d51ba3e9c74a71101a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\0df9b3a0656d1d51ba3e9c74a71101a7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\cfccd858568950852975349b8d247f3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\cfccd858568950852975349b8d247f3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\4eec97ada7bafbbff4017bd010d6d0de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\4eec97ada7bafbbff4017bd010d6d0de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\3ac6ebcd6690fddcdee9fc4dc6c61344\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\3ac6ebcd6690fddcdee9fc4dc6c61344\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f33510c1fcded74b97ba3e3b06354ee2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\f33510c1fcded74b97ba3e3b06354ee2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\07bc5d975c4d056dcccabf87a04e7cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\6ef5c692f4634cd211b7bda25b9548bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\6ef5c692f4634cd211b7bda25b9548bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\02771b155c252b7b51b209be9c79ed81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\02771b155c252b7b51b209be9c79ed81\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4131f383d38cd3d6a5de6c783f9f1b3a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4131f383d38cd3d6a5de6c783f9f1b3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\860fca96337be2565343d098dc842f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\860fca96337be2565343d098dc842f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\f4204c8b73acc74121a0572822b99c3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\f4204c8b73acc74121a0572822b99c3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\7d3cc4ce2742ab93aab97e26cdf9081e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\7d3cc4ce2742ab93aab97e26cdf9081e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\32deb8b7c1b25a6a1713c86cd1666115\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\32deb8b7c1b25a6a1713c86cd1666115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\e1176d751827c63405ef8c51dd06cbbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\e1176d751827c63405ef8c51dd06cbbe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4462d8e53f712ff3e6c029001494257a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4462d8e53f712ff3e6c029001494257a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7c000d08c8e95ab7a8efcbbec0b07ad2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Hein Min Thant\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7c000d08c8e95ab7a8efcbbec0b07ad2\AndroidManifest.xml:20:5-44
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\MeterApp\app\src\main\AndroidManifest.xml

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadMeter_Options">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Read Meter by Binder" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:text="Choose Binder :" />
+
+    <Spinner
+        android:id="@+id/spnBinder"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="41dp" />
+
+    <Button
+        android:id="@+id/btnBinderGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="133dp"
+        android:text="Go" />
+
+    <EditText
+        android:id="@+id/editLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="226dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="259dp"
+        android:layout_marginStart="28dp"
+        android:text="Read Meter by Meter" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editSearchMeterNo"
+        android:layout_alignStart="@+id/textView33"
+        android:text="Search Meter :" />
+
+    <EditText
+        android:id="@+id/editSearchMeterNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="183dp"
+        android:layout_toEndOf="@+id/textView33"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnMeterGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnBinderGo"
+        android:layout_marginBottom="77dp"
+        android:text="Go" />
+</RelativeLayout>

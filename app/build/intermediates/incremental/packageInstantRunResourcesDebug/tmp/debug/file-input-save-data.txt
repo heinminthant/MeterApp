@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Sep 07 00:02:30 MMT 2018
+0.baseType=DIRECTORY
+0.base=E\:\\MeterApp\\app\\build\\intermediates\\assets\\debug
+0.path=MeterDB.db
+0.set=ASSET
+count=1

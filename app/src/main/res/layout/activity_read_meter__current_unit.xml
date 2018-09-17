@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadMeter_CurrentUnit">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Read Current Unit" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="67dp"
+        android:text="Township:" />
+
+    <TextView
+        android:id="@+id/txtTown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView41"
+        android:layout_marginStart="94dp"
+        android:textStyle="bold"
+        android:text="Aung Myay Tharzan" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginTop="239dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/txtReadingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTown"
+        android:layout_alignTop="@+id/textView43"
+        android:textStyle="bold"
+        android:text="August 2018" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginTop="108dp"
+        android:text="Meter No:" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginTop="154dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginTop="193dp"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginBottom="261dp"
+        android:text="Previous Unit" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editCurrent"
+        android:layout_alignStart="@+id/textView41"
+        android:text="Current Unit" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_marginBottom="143dp"
+        android:text="Photo" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView40"
+        android:layout_marginBottom="134dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView40"
+        android:layout_alignTop="@+id/textView45"
+        android:text="Ledger No" />
+
+    <TextView
+        android:id="@+id/txtLedger"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView45"
+        android:layout_toEndOf="@+id/editCurrent"
+        android:textStyle="bold"
+        android:text="LA/212" />
+
+    <TextView
+        android:id="@+id/txtMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTown"
+        android:layout_alignTop="@+id/textView45"
+        android:textStyle="bold"
+        android:text="TL-268212" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTown"
+        android:layout_alignTop="@+id/textView46"
+        android:textStyle="bold"
+        android:text="U Htwe Ko" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTown"
+        android:layout_alignTop="@+id/textView47"
+        android:textStyle="bold"
+        android:text="La-9/251" />
+
+    <TextView
+        android:id="@+id/txtPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignTop="@+id/textView49"
+        android:textStyle="bold"
+        android:text="1898" />
+
+    <EditText
+        android:id="@+id/editCurrent"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnBinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSubmit"
+        android:layout_toEndOf="@+id/textView40"
+        android:text="Binder" />
+
+    <TextView
+        android:id="@+id/txtImageName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView51"
+        android:layout_marginEnd="-92dp"
+        android:layout_toStartOf="@+id/txtLedger"
+        android:textStyle="bold"
+        android:text="TextView" /><![CDATA[
+
+    " />
+]]>
+</RelativeLayout>

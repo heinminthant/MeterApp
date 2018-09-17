@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditData_Details">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Edit Meter Data" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="89dp"
+        android:text="Township" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="132dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="178dp"
+        android:text="Meter No" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="221dp"
+        android:text="Ledger No" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="262dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginBottom="246dp"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginBottom="147dp"
+        android:text="Current Unit" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView18"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="Aung Myay Tharzan" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="June 2018" />
+
+    <TextView
+        android:id="@+id/txtMeterNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="TL-27582" />
+
+    <TextView
+        android:id="@+id/txtLedgerNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="La-9/251" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="U Lay Gyi" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_toEndOf="@+id/textView17"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editCurrent"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView24"
+        android:layout_toEndOf="@+id/textView17"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/txtPreviousUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginBottom="205dp"
+        android:text="Previous Unit" />
+
+    <TextView
+        android:id="@+id/txtPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtPreviousUnit"
+        android:layout_marginEnd="98dp"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imgMeter"
+        android:layout_width="77dp"
+        android:layout_height="63dp"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-31dp"
+        android:layout_marginStart="19dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/txtImageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgMeter"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:text="TextView" />
+
+</RelativeLayout>
