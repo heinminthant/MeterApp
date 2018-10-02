@@ -9,6 +9,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -199,10 +202,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String query = "Select Distinct BinderNo From " + METER_TABLE;
 
         Cursor cursor = db.rawQuery(query,null);
+
+        Toast.makeText(context, Integer.toString(cursor.getCount()), Toast.LENGTH_SHORT).show();
+        
         Integer[] binder = new Integer[cursor.getCount()];
 
+
+
         while(cursor.moveToNext()){
-            binder[cursor.getPosition()] = cursor.getInt(cursor.getColumnIndex("BinderNo"));
+
+                binder[cursor.getPosition()] = cursor.getInt(cursor.getColumnIndex("BinderNo"));
+
         }
         cursor.close();
         db.close();
@@ -416,6 +426,25 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 //        db.execSQL("Insert into Image (ImgName,ImgLocation,MeterNo) Values( '" + fileName + "','" + data + "','" + meterNo + "'");
         db.close();
 
+    }
+
+    public void downloadMeter(JSONObject meter){
+        db = openDatabase();
+
+        ContentValues cv = new ContentValues();
+        try {
+            cv.put("LedgerNo",meter.getString("LedgerNo"));
+            cv.put("MeterNo",meter.getString("MeterNo"));
+            cv.put("BinderNo",meter.getInt("BinderNo"));
+            cv.put("BinderSerial", meter.getInt("BinderSerial"));
+            cv.put("ConsumerName",meter.getString("ConsumerName"));
+            cv.put("Address",meter.getString("Address"));
+            cv.put("PreviousUnit",meter.getInt("PreviousUnit"));
+            db.insert("Meter",null,cv);
+            db.close();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     private static byte[] getBitmapAsByteArray(Bitmap bitmap){

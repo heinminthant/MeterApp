@@ -115,12 +115,12 @@ ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:28:9-30:39
 		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:29:13-37
-activity#com.example.hein.meterapp.UploadData
+activity#com.example.hein.meterapp.DownloadMeterData
 ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:31:9-33:39
 	android:exported
 		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:32:13-39
+		ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:32:13-46
 activity#com.example.hein.meterapp.CheckSummary
 ADDED from E:\MeterApp\app\src\main\AndroidManifest.xml:34:9-50
 	android:name

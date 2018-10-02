@@ -38,7 +38,7 @@
             android:name="com.example.hein.meterapp.MainMenu"
             android:exported="true" />
         <activity
-            android:name="com.example.hein.meterapp.UploadData"
+            android:name="com.example.hein.meterapp.DownloadMeterData"
             android:exported="true" />
         <activity android:name="com.example.hein.meterapp.CheckSummary" />
         <activity android:name="com.example.hein.meterapp.DownloadData" />

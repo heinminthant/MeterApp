@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -58,7 +56,7 @@ public class MainMenu extends AppCompatActivity {
         downloadIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent downloadIntent = new Intent(MainMenu.this,DownloadData.class);
+                Intent downloadIntent = new Intent(MainMenu.this,DownloadMeterData.class);
                 startActivity(downloadIntent);
             }
         });
@@ -67,7 +65,7 @@ public class MainMenu extends AppCompatActivity {
         uploadIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent uploadIntent = new Intent(MainMenu.this,UploadData .class);
+                Intent uploadIntent = new Intent(MainMenu.this,DownloadMeterData.class);
                 startActivity(uploadIntent);
             }
         });

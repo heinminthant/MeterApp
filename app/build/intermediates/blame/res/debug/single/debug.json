@@ -500,6 +500,10 @@
         "source": "C:\\Users\\Hein Min Thant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc01.aar\\ba778a3a6731636b450acf90cb8944b0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "E:\\MeterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_download_meter_data.xml.flat",
+        "source": "E:\\MeterApp\\app\\src\\main\\res\\layout\\activity_download_meter_data.xml"
+    },
+    {
         "merged": "E:\\MeterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Hein Min Thant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc01.aar\\ba778a3a6731636b450acf90cb8944b0\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -874,10 +878,6 @@
     {
         "merged": "E:\\MeterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Hein Min Thant\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-rc01.aar\\ba778a3a6731636b450acf90cb8944b0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\MeterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_data.xml.flat",
-        "source": "E:\\MeterApp\\app\\src\\main\\res\\layout\\activity_upload_data.xml"
     },
     {
         "merged": "E:\\MeterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

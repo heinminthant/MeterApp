@@ -29,10 +29,10 @@
             android:name=".MainMenu"
             android:exported="true" />
         <activity
-            android:name=".UploadData"
+            android:name=".DownloadMeterData"
             android:exported="true" />
         <activity android:name=".CheckSummary" />
-        <activity android:name=".DownloadData" />
+        <activity android:name=".UploadMeterData" />
         <activity android:name=".EditData_Search" />
         <activity android:name=".EditData_Details" />
         <activity android:name=".ReadMeter_Options" />

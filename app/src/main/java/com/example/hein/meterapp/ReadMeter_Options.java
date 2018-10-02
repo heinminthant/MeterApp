@@ -32,9 +32,11 @@ public class ReadMeter_Options extends AppCompatActivity {
         db = new DatabaseHelper(ReadMeter_Options.this);
 
         spnBinder = findViewById(R.id.spnBinder);
-        final Integer[] binder = db.getBinder();
+        Integer[] binder = db.getBinder();
+
         ArrayAdapter<Integer> adapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, binder);
         spnBinder.setAdapter(adapter);
+
 
 
 
